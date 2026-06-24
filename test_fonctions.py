@@ -2,7 +2,7 @@ import unittest
 import sqlite3
 import os
 
-# --- Tests pour main.py ---
+#  Tests pour main.py 
 
 class TestExtractionTexte(unittest.TestCase):
 
@@ -39,7 +39,7 @@ class TestExtractionTexte(unittest.TestCase):
         self.assertEqual(len(paragraphes_valides), 3)
 
 
-# --- Tests pour application.py (base SQLite) ---
+# Tests pour application.py 
 
 class TestBaseDonnees(unittest.TestCase):
 
