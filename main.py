@@ -470,7 +470,7 @@ def generer_rapport_word(titre, auteur, nb_mots_par_paragraphe, chemin_sortie):
 if __name__ == "__main__":
 
     URL_LIVRE         = "https://www.gutenberg.org/cache/epub/17489/pg17489.txt"
-    URL_IMAGE = "https://www.gutenberg.org/cache/epub/135/pg135.cover.medium.jpg"
+    URL_IMAGE = "https://m.media-amazon.com/images/I/613R0HknEEL.jpg"
 
     CHEMIN_LIVRE      = "les_miserables.txt"
     CHEMIN_IMAGE      = "image12.jpg"
